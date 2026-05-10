@@ -18,9 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     let orders = [
-        { id: '#1045', customer: 'Арина Петрова', phone: '+7 (916) 123-45-67', product: "De'Longhi Inissia", amount: '9 990 ₽', date: '12.01.2024', status: '✅ Доставлен', address: 'г. Москва, ул. Тверская, д. 1' },
-        { id: '#1044', customer: 'Дмитрий Смирнов', phone: '+7 (926) 234-56-78', product: 'Jura WE8', amount: '59 990 ₽', date: '11.01.2024', status: '🚚 В пути', address: 'г. Москва, ул. Арбат, д. 15' },
-        { id: '#1043', customer: 'Кристина Тимофеева', phone: '+7 (903) 345-67-89', product: 'Philips 2200', amount: '24 990 ₽', date: '10.01.2024', status: '⏳ Обработка', address: 'г. Москва, ул. Ленина, д. 5' }
+        { id: '#1045', customer: 'Арина Петрова', phone: '+7 (916) 123-45-67', product: "De'Longhi Inissia", amount: '9 990 ₽', date: '12.01.2026', status: '✅ Доставлен', address: 'г. Москва, ул. Тверская, д. 1' },
+        { id: '#1044', customer: 'Дмитрий Смирнов', phone: '+7 (926) 234-56-78', product: 'Jura WE8', amount: '59 990 ₽', date: '11.01.2026', status: '🚚 В пути', address: 'г. Москва, ул. Арбат, д. 15' },
+        { id: '#1043', customer: 'Кристина Тимофеева', phone: '+7 (903) 345-67-89', product: 'Philips 2200', amount: '24 990 ₽', date: '10.01.2026', status: '⏳ Обработка', address: 'г. Москва, ул. Ленина, д. 5' }
     ];
 
     let reviews = [
