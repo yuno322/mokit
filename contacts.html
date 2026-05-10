@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — КофеМашины.ру</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">☕</div>
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="about.html" class="nav-link">О компании</a>
+                    <a href="reviews.html" class="nav-link">Отзывы</a>
+                    <a href="warranty.html" class="nav-link">Гарантии</a>
+                    <a href="delivery.html" class="nav-link">Доставка</a>
+                    <a href="contacts.html" class="nav-link active">Контакты</a>
+                </nav>
+                <a href="tel:88003332030" class="header-phone">📞 8 800 333-20-30</a>
+                <button class="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="catalog.html" class="nav-link">Каталог</a>
+            <a href="about.html" class="nav-link">О компании</a>
+            <a href="reviews.html" class="nav-link">Отзывы</a>
+            <a href="warranty.html" class="nav-link">Гарантии</a>
+            <a href="delivery.html" class="nav-link">Доставка</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Контакты</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Контакты</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контакты и карта -->
+    <section class="contacts-section section-padding">
+        <div class="container">
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <h3>Наши контакты</h3>
+                    <ul class="contacts-list">
+                        <li>
+                            <span class="contacts-icon">📍</span>
+                            <div>
+                                <strong>Адрес:</strong><br>
+                                23456, г. Москва,Рощинская ул., 22<br>
+                                <span style="font-size:0.85rem;color:#999;">м.Подольск, 5 мин пешком</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">📞</span>
+                            <div>
+                                <strong>Телефон:</strong><br>
+                                <a href="tel:88003332030" style="font-size:1.2rem;font-weight:700;color:var(--primary);">8 800 333-20-30</a><br>
+                                <span style="font-size:0.85rem;color:#999;">Звонок по России бесплатный</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">✉️</span>
+                            <div>
+                                <strong>Email:</strong><br>
+                                order@coffeemachines.ru
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">🕐</span>
+                            <div>
+                                <strong>Время работы:</strong><br>
+                                8:00–19:00 без выходных
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div style="margin-top: 32px;">
+                        <h3 style="margin-bottom: 16px;">Остались вопросы?</h3>
+                        <form class="contact-form" id="contactPageForm">
+                            <input type="text" placeholder="Введите имя" required>
+                            <input type="email" placeholder="Введите E-mail" required>
+                            <input type="tel" placeholder="Введите номер телефона" required>
+                            <textarea placeholder="Ваш вопрос..." rows="4" style="width:100%;padding:12px 20px;border-radius:30px;border:1px solid #ddd;font-family:'Montserrat',sans-serif;resize:vertical;"></textarea>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+<div class="map-container" style="position: relative; overflow: hidden;">
+    <iframe 
+        src="https://yandex.ru/map-widget/v1/?ll=37.622504%2C55.753215&z=14&pt=37.622504,55.753215,pm2rdm" 
+        width="100%" 
+        height="100%" 
+        frameborder="0"
+        style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                    <p>Интернет-магазин кофемашин — ваш надёжный поставщик.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Каталог</h4>
+                    <ul>
+                        <li><a href="catalog.html">Для дома</a></li>
+                        <li><a href="catalog.html">Профессиональные</a></li>
+                        <li><a href="catalog.html">Капсульные</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="warranty.html">Гарантии</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2015–2026 Интернет-магазин кофемашин. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contactPageForm')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+            showToast('Спасибо! Мы свяжемся с вами в ближайшее время.', 'success');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

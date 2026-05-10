@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог кофемашин — КофеМашины.ру</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">☕</div>
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Главная</a>
+                    <a href="catalog.html" class="nav-link active">Каталог</a>
+                    <a href="about.html" class="nav-link">О компании</a>
+                    <a href="reviews.html" class="nav-link">Отзывы</a>
+                    <a href="warranty.html" class="nav-link">Гарантии</a>
+                    <a href="delivery.html" class="nav-link">Доставка</a>
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </nav>
+                <a href="tel:88003332030" class="header-phone">📞 8 800 333-20-30</a>
+                <button class="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="catalog.html" class="nav-link">Каталог</a>
+            <a href="about.html" class="nav-link">О компании</a>
+            <a href="reviews.html" class="nav-link">Отзывы</a>
+            <a href="warranty.html" class="nav-link">Гарантии</a>
+            <a href="delivery.html" class="nav-link">Доставка</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Каталог кофемашин</h1>
+            <div class="breadcrumbs">
+                <a href="index.html">Главная</a> / <span>Каталог</span>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-padding">
+        <div class="container">
+            <div class="catalog-filter">
+                <button class="filter-btn active" data-filter="all">Все модели</button>
+                <button class="filter-btn" data-filter="home">Для дома</button>
+                <button class="filter-btn" data-filter="capsule">Капсульные</button>
+                <button class="filter-btn" data-filter="professional">Профессиональные</button>
+                <button class="filter-btn" data-filter="office">Для офиса</button>
+            </div>
+            <div class="catalog-grid">
+                <div class="product-card" data-category="capsule home">
+                    <div class="product-card-badge">Хит</div>
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Капсульная • Для дома</span>
+                        <h3>De'Longhi Nespresso Inissia</h3>
+                        <p>Компактная капсульная кофемашина. Быстрое приготовление.</p>
+                        <span class="product-card-price">9 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="home">
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Для дома</span>
+                        <h3>Philips Series 2200</h3>
+                        <p>Автоматическая кофемашина. Идеально для домашнего использования.</p>
+                        <span class="product-card-price">24 990 ₽</span>
+                        <span class="product-card-price-old">32 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="professional">
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Профессиональная</span>
+                        <h3>Jura WE8 Professional</h3>
+                        <p>Мощная кофемашина для высокой нагрузки. Для ресторанов и кофеен.</p>
+                        <span class="product-card-price">от 59 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="capsule">
+                    <div class="product-card-badge">Новинка</div>
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Капсульная</span>
+                        <h3>Krups Nespresso Pixie</h3>
+                        <p>Стильная капсульная кофемашина. Компактный размер, яркий дизайн.</p>
+                        <span class="product-card-price">12 490 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="office">
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Для офиса</span>
+                        <h3>Saeco Aulika Office</h3>
+                        <p>Автоматическая кофемашина для офиса. Вместительный контейнер.</p>
+                        <span class="product-card-price">44 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" data-category="home">
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Для дома</span>
+                        <h3>Melitta Caffeo Solo</h3>
+                        <p>Компактная автоматическая кофемашина. Идеальный эспрессо.</p>
+                        <span class="product-card-price">19 990 ₽</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                    <p>Ваш надёжный поставщик качественных кофемашин для дома и бизнеса.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Каталог</h4>
+                    <ul>
+                        <li><a href="catalog.html">Для дома</a></li>
+                        <li><a href="catalog.html">Профессиональные</a></li>
+                        <li><a href="catalog.html">Капсульные</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="warranty.html">Гарантии</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2015–2026 Интернет-магазин кофемашин. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

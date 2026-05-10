@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Интернет-магазин кофемашин — профессиональные кофемашины для ресторанов, кофеен, офисов и дома. Широкий ассортимент, доставка по России.">
+    <title>КофеМашины.ру — Профессиональные кофемашины для дома и бизнеса</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+
+    <!-- ========== ХЕДЕР ========== -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">☕</div>
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Главная</a>
+                    <a href="catalog.html" class="nav-link">Каталог</a>
+                    <a href="about.html" class="nav-link">О компании</a>
+                    <a href="reviews.html" class="nav-link">Отзывы</a>
+                    <a href="warranty.html" class="nav-link">Гарантии</a>
+                    <a href="delivery.html" class="nav-link">Доставка</a>
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </nav>
+                <a href="tel:88003332030" class="header-phone">📞 8 800 333-20-30</a>
+                <button class="burger" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Мобильное меню -->
+        <div class="mobile-menu">
+            <a href="index.html" class="nav-link">Главная</a>
+            <a href="catalog.html" class="nav-link">Каталог</a>
+            <a href="about.html" class="nav-link">О компании</a>
+            <a href="reviews.html" class="nav-link">Отзывы</a>
+            <a href="warranty.html" class="nav-link">Гарантии</a>
+            <a href="delivery.html" class="nav-link">Доставка</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </div>
+    </header>
+
+    <!-- ========== HERO (Главный экран) ========== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <span class="hero-badge">🔥 Лидер продаж 2026</span>
+                    <h1 class="hero-title">
+                        Профессиональные <span>кофемашины</span> для вашего бизнеса и дома
+                    </h1>
+                    <p class="hero-desc">
+                        Кофемашины для ресторанов, кофеен и офисов. Идеальное решение для приготовления кофе в домашних условиях. Широкий ассортимент капсульных и автоматических моделей.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="catalog.html" class="btn btn-primary btn-lg">Смотреть каталог</a>
+                        <a href="#advantages" class="btn btn-outline btn-lg">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-placeholder">☕</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ПРЕИМУЩЕСТВА ========== -->
+    <section class="advantages section-padding" id="advantages">
+        <div class="container">
+            <h2 class="section-title">Преимущества</h2>
+            <p class="section-subtitle">Почему стоит приобрести кофемашину в нашем магазине</p>
+            <div class="divider"></div>
+            <div class="advantages-grid">
+                <div class="advantage-card">
+                    <div class="advantage-icon">🏆</div>
+                    <h3>Лучший продукт</h3>
+                    <p>Интернет-магазин кофемашин предлагает разнообразные модели, подходящие для разных стилей кухни и потребностей клиентов.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">⚡</div>
+                    <h3>Скорость и доступность</h3>
+                    <p>Регулярные распродажи и специальные предложения делают покупки более выгодными. Подпишитесь на рассылки, чтобы не пропустить скидки.</p>
+                </div>
+                <div class="advantage-card">
+                    <div class="advantage-icon">🛡️</div>
+                    <h3>Специализированная среда</h3>
+                    <p>Комфорт и экономия времени. Просматривайте товары и сравнивайте цены, не выходя из дома. Удобные фильтры для быстрого поиска.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== КАТАЛОГ========== -->
+    <section class="catalog-preview section-padding">
+        <div class="container">
+            <h2 class="section-title">Каталог кофемашин</h2>
+            <p class="section-subtitle">Широкий выбор моделей для любых потребностей и бюджетов</p>
+            <div class="divider"></div>
+            <div class="catalog-grid">
+                <div class="product-card" onclick="location.href='catalog.html'">
+                    <div class="product-card-badge">Хит продаж</div>
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Для дома</span>
+                        <h3>Капсульная кофемашина De'Longhi</h3>
+                        <p>Быстрое приготовление любимых напитков. Компактный дизайн.</p>
+                        <span class="product-card-price">от 9 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" onclick="location.href='catalog.html'">
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Для дома</span>
+                        <h3>Автоматическая кофемашина Philips</h3>
+                        <p>Идеальное решение для приготовления кофе в домашних условиях.</p>
+                        <span class="product-card-price">24 990 ₽</span>
+                        <span class="product-card-price-old">32 990 ₽</span>
+                    </div>
+                </div>
+                <div class="product-card" onclick="location.href='catalog.html'">
+                    <div class="product-card-badge">Новинка</div>
+                    <div class="product-card-image">☕</div>
+                    <div class="product-card-body">
+                        <span class="product-card-category">Профессиональная</span>
+                        <h3>Профессиональная кофемашина Jura</h3>
+                        <p>Для ресторанов, кофеен и офисов с высокой нагрузкой.</p>
+                        <span class="product-card-price">от 59 990 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="catalog.html" class="btn btn-primary">Перейти в каталог →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== НАША КОМПАНИЯ / НАШ ДОЛГИЙ ПУТЬ ========== -->
+    <section class="about-section section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">🏪</div>
+                <div class="about-content">
+                    <h2 class="section-title">Наш долгий путь</h2>
+                    <div class="divider"></div>
+                    <p class="about-text">
+                        <strong>Наша история началась с простого желания</strong> — сделать качественный кофе доступным каждому. Мы понимаем, что утренний ритуал приготовления кофе играет огромную роль, поэтому с самого начала нашей деятельности мы стремились предложить только лучшие модели.
+                    </p>
+                    <p class="about-text">
+                        С 2015 года мы трудимся над созданием широкой коллекции кофемашин, ориентируясь на современные тенденции и потребности наших клиентов. Каждый элемент нашего ассортимента проходит тщательный отбор.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">9+</div>
+                            <div class="stat-label">лет на рынке</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">5000+</div>
+                            <div class="stat-label">довольных клиентов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">200+</div>
+                            <div class="stat-label">моделей в каталоге</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ВЛИЯНИЕ НАШЕЙ ПРОДУКЦИИ ========== -->
+    <section class="impact-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Влияние нашей продукции</h2>
+            <p class="section-subtitle">Как кофемашины меняют жизнь наших клиентов</p>
+            <div class="divider"></div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-card-icon">😊</div>
+                    <h3>Улучшение настроения</h3>
+                    <p>Возможность наслаждаться свежесваренным кофе в любое время способствует улучшению настроения и повышению продуктивности.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card-icon">⏱️</div>
+                    <h3>Экономия времени</h3>
+                    <p>Правильно подобранная кофемашина помогает сохранять время и энергию, избавляя от ежедневных походов в кофейни.</p>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-card-icon">🎨</div>
+                    <h3>Стиль и уют</h3>
+                    <p>Кофемашины добавляют стиль и уют в интерьер кухни, подчёркивая индивидуальность и вкус владельца.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ФАКТЫ О НАС ========== -->
+    <section class="facts-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Факты о нас</h2>
+            <p class="section-subtitle">Наша команда экспертов готова помочь вам</p>
+            <div class="divider"></div>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-number">9<span class="fact-suffix">+</span></div>
+                    <div class="fact-label">Лет успешной работы</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">50<span class="fact-suffix">+</span></div>
+                    <div class="fact-label">Брендов в ассортименте</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">98<span class="fact-suffix">%</span></div>
+                    <div class="fact-label">Довольных клиентов</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">24<span class="fact-suffix">/7</span></div>
+                    <div class="fact-label">Поддержка клиентов</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ГАЛЕРЕЯ КОФЕМАШИН ========== -->
+    <section class="gallery-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Галерея наших кофемашин</h2>
+            <p class="section-subtitle">Наши товары пользуются особой популярностью</p>
+            <div class="divider"></div>
+            <div class="gallery-grid">
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+                <div class="gallery-item">☕<span>🔍</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно галереи -->
+    <div class="gallery-modal">
+        <span class="gallery-modal-close">✕</span>
+        <div class="gallery-modal-content"></div>
+    </div>
+
+    <!-- ========== ОТЗЫВЫ (слайдер с анимацией) ========== -->
+    <section class="reviews-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Отзывы клиентов</h2>
+            <p class="section-subtitle">Что говорят о нашей работе</p>
+            <div class="divider"></div>
+            <div class="reviews-slider-container">
+                <div class="reviews-track">
+                    <div class="review-slide">
+                        <div class="review-card-full">
+                            <span class="review-quote">"</span>
+                            <p class="review-text">Недавно приобрела кофемашину в этом интернет-магазине, и я просто в восторге! Кофемашина отличного качества, кофе получается насыщенный и ароматный, а дизайн идеально вписался в интерьер кухни. Доставили быстро, без повреждений.</p>
+                            <p class="review-author">Арина Петрова</p>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-card-full">
+                            <span class="review-quote">"</span>
+                            <p class="review-text">Купил кофемашину в этом магазине для своего офиса. Очень доволен качеством! Она удобная и стильная, прекрасно справляется с нагрузкой. Работа менеджеров на высоте — ответы на все вопросы были быстрыми.</p>
+                            <p class="review-author">Дмитрий Смирнов</p>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-card-full">
+                            <span class="review-quote">"</span>
+                            <p class="review-text">Я искала кофемашину для домашнего использования, и, наконец, нашла то, что нужно! Заказала автоматическую модель, и она просто великолепна. Очень удобно, и гости остаются в восторге от вкусного кофе.</p>
+                            <p class="review-author">Кристина Тимофеева</p>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-slide">
+                        <div class="review-card-full">
+                            <span class="review-quote">"</span>
+                            <p class="review-text">Заказал кофемашину для дома. К сожалению, она пришла с небольшим дефектом, но магазин быстро отреагировал и предложил обмен. Теперь у меня идеальная кофемашина! Удобная, хорошо сделанная и по разумной цене.</p>
+                            <p class="review-author">Андрей Кузнецов</p>
+                            <div class="review-rating">★★★★☆</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews-nav">
+                    <button class="reviews-arrow prev">◂</button>
+                    <div class="reviews-dots"></div>
+                    <button class="reviews-arrow next">▸</button>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 32px;">
+                <a href="reviews.html" class="btn btn-outline">Все отзывы →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== АКЦИЯ ========== -->
+    <section class="promo-section section-padding">
+        <div class="container">
+            <div class="promo-content">
+                <span class="promo-badge">🎉 Акция недели</span>
+                <h3>«2+1»</h3>
+                <p>Получите третью кофемашину <strong>бесплатно</strong> при покупке двух!</p>
+                <form class="promo-form">
+                    <input type="email" placeholder="Введите email" required>
+                    <button type="submit" class="btn btn-accent">Участвовать</button>
+                </form>
+                <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 12px;">Нажимая на кнопку, Вы принимаете Положение и Согласие на обработку персональных данных.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== КОНТАКТЫ И КАРТА ========== -->
+    <section class="contacts-section section-padding">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <p class="section-subtitle">Свяжитесь с нами удобным способом</p>
+            <div class="divider"></div>
+            <div class="contacts-grid">
+                <div class="contacts-info">
+                    <h3>Наши контакты</h3>
+                    <ul class="contacts-list">
+                        <li>
+                            <span class="contacts-icon">📍</span>
+                            <div>
+                                <strong>Адрес:</strong><br>
+                                23456, г. Москва, Рощинская ул., 22
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">📞</span>
+                            <div>
+                                <strong>Телефон:</strong><br>
+                                <a href="tel:88003332030">8 800 333-20-30</a><br>
+                                <span style="font-size:0.85rem;color:#999;">Звонок по России бесплатный</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">✉️</span>
+                            <div>
+                                <strong>Email:</strong><br>
+                                order@coffeemachines.ru
+                            </div>
+                        </li>
+                        <li>
+                            <span class="contacts-icon">🕐</span>
+                            <div>
+                                <strong>Время работы:</strong><br>
+                                8:00–19:00 без выходных
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+<div class="map-container" style="position: relative; overflow: hidden;">
+    <iframe 
+        src="https://yandex.ru/map-widget/v1/?ll=37.622504%2C55.753215&z=14&pt=37.622504,55.753215,pm2rdm" 
+        width="100%" 
+        height="100%" 
+        frameborder="0"
+        style="border: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ФУТЕР ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text">Кофе<span>Машины</span>.ру</span>
+                    <p>Интернет-магазин кофемашин — ваш надёжный поставщик качественных кофемашин для дома и бизнеса.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Каталог</h4>
+                    <ul>
+                        <li><a href="catalog.html">Для дома</a></li>
+                        <li><a href="catalog.html">Профессиональные</a></li>
+                        <li><a href="catalog.html">Капсульные</a></li>
+                        <li><a href="catalog.html">Аксессуары</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="about.html">О компании</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="warranty.html">Гарантии</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Помощь</h4>
+                    <ul>
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="warranty.html">Возврат</a></li>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2015–2026 Интернет-магазин кофемашин. Все права защищены. ИНН 1234567899 ОГРН 123456789010</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
